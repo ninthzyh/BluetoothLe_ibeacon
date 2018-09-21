@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="F:\BluetoothLe_ibeacon\app\src\main\libs\commons-lang-2.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
+        <dex dex="F:\BluetoothLe_ibeacon\app\build\intermediates\pre-dexed\debug\commons-lang-2.6_10d3d515599b627dbae5a82a948f7273fc15c376.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\BluetoothLe_ibeacon\app\src\main\libs\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1dc1f63cee098b27db60b9a2833fd7ca58f89636">
+        <dex dex="F:\BluetoothLe_ibeacon\app\build\intermediates\pre-dexed\debug\android-support-v4_9b87693655cc57965906c712c99e803137d27f7a.jar" />
+    </item>
+
+</items>

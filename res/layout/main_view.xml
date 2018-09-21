@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/myLayout" >
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="本系统为西安邮电大学通信与信息工程学院智慧管理系统，采用蓝牙定位的方式给学院中的实验室进行介绍同时能够查看该实验室本周课程。\n研发小组：通院移动开发小组 \n小组成员：李睿鑫 通信工程2015级 \n                    郑雨荷 通信工程2015级 \n                    王伟竹 通信工程2016级 \n指导老师：王军选"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:lineSpacingExtra="5sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="版本号：1.1.3"
+        android:textSize="10sp"
+        android:gravity="right"/>
+
+</RelativeLayout>
